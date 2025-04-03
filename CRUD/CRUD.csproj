@@ -49,6 +49,14 @@
     <Compile Include="Clases\ClasesForms\bntmethods.cs" />
     <Compile Include="Clases\ClasesForms\InitCompnts.cs" />
     <Compile Include="Clases\ClasesForms\Itcontrols.cs" />
+    <Compile Include="Clases\SqlClasses\Connectin\ConnectinDB.cs" />
+    <Compile Include="Clases\SqlClasses\DeleteDB\DELETE_DB.cs" />
+    <Compile Include="Clases\SqlClasses\InsertDB\INSERT_DB.cs" />
+    <Compile Include="Clases\SqlClasses\InsertDB\SecuritymethodsINSRT.cs" />
+    <Compile Include="Clases\SqlClasses\LoginSL\LoginSL.cs" />
+    <Compile Include="Clases\SqlClasses\SecuritymethodsDB\Abstract_SecurityMethods.cs" />
+    <Compile Include="Clases\SqlClasses\SelectDB\SecurityMethodsSLCT.cs" />
+    <Compile Include="Clases\SqlClasses\SelectDB\SELECT_DB.cs" />
     <Compile Include="Formularios\frm.cs">
       <SubType>Form</SubType>
     </Compile>
