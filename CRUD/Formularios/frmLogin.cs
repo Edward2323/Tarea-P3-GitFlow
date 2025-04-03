@@ -14,6 +14,7 @@ namespace CRUD.Formularios
 {
     public partial class frmLogin : Form
     {
+        frmMP frmMP = new frmMP();
         public frmLogin()
         {
             InitializeComponent();
@@ -28,7 +29,8 @@ namespace CRUD.Formularios
         {
             if (LoginSL.Login(Itcontrols.GetTotalTextBoxes(this))) //Valida el inicio de sesion
             {
-                lbMessage.Text = "Login exitoso";
+                frmMP.Show();
+                this.Hide();
             }
             else
             {
