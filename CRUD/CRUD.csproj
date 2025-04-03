@@ -57,22 +57,25 @@
     <Compile Include="Clases\SqlClasses\SecuritymethodsDB\Abstract_SecurityMethods.cs" />
     <Compile Include="Clases\SqlClasses\SelectDB\SecurityMethodsSLCT.cs" />
     <Compile Include="Clases\SqlClasses\SelectDB\SELECT_DB.cs" />
-    <Compile Include="Formularios\frm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\frm.Designer.cs">
-      <DependentUpon>frm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formularios\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frmMP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMP.Designer.cs">
+      <DependentUpon>frmMP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMP.resx">
+      <DependentUpon>frmMP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
