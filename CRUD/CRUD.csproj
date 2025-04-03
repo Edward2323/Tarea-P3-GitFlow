@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\ClasesForms\bntmethods.cs" />
+    <Compile Include="Clases\ClasesForms\InitCompnts.cs" />
+    <Compile Include="Clases\ClasesForms\Itcontrols.cs" />
     <Compile Include="Formularios\frm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,7 +80,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Clases\" />
     <Folder Include="Imagenes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
